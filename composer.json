@@ -3,7 +3,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Klobkovsky\\Hw3Package\\": "src/"
+            "KLobkovsky\\Hw3Package\\": "src/"
         }
     },
     "authors": [
