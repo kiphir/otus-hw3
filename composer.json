@@ -1,0 +1,16 @@
+{
+    "name": "klobkovsky/hw3-package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Klobkovsky\\Hw3Package\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kirill.lobkovsky",
+            "email": "kiphirrr@gmail.com"
+        }
+    ],
+    "require": {}
+}
