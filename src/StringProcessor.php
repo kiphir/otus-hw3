@@ -8,8 +8,14 @@ class StringProcessor
 {
     public function getDigitCount(string $s): int
     {
-        $matches = [[]];
-        preg_match_all('/\d/', $s, $matches);
-        return count($matches[0]);
+        $digitCount = 0;
+
+        foreach (str_split($s) as $char) {
+            if (is_numeric($char)) {
+                $digitCount++;
+            }
+        }
+
+        return $digitCount;
     }
 }
